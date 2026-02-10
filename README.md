@@ -71,7 +71,7 @@ Hand Bone X-ray 이미지 세그멘테이션
 
 ---
 
-### BOJ
+### Algorithm
 
 <div align="center">
 
