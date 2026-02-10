@@ -4,7 +4,7 @@
 
 AI/ML Engineer
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=notion&logoColor=white)](https://www.notion.so/2f46d33d02908082b792f67990738797?v=2f46d33d0290809bb5d8000caba15f0b)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=notion&logoColor=white)](https://www.notion.so/2f46d33d02908082b792f67990738797?v=2f46d33d0290809bb5d8000caba15f0b) [![Blog](https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=tistory&logoColor=white)](https://woojab.tistory.com/)
 
 </div>
 
@@ -12,9 +12,10 @@ AI/ML Engineer
 
 ### Projects
 
+<div align="center">
 <table>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" align="center" valign="top">
 
 **🎓 Re:View**
 
@@ -23,7 +24,7 @@ STT + 화면 정보를 결합한 강의 영상 요약 서비스
 [![Notion](https://img.shields.io/badge/Detail-000000?style=flat-square&logo=notion&logoColor=white)](https://www.notion.so/Re-View-STT-2f46d33d029080f5b0c8c2d5401d6a13?source=copy_link) [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/seolbbb/Re-View)
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" align="center" valign="top">
 
 **🧩 PAZULE**
 
@@ -34,7 +35,7 @@ VLM 기반 랜드마크 보물찾기 서비스
 </td>
 </tr>
 <tr>
-<td width="50%" valign="top">
+<td width="50%" align="center" valign="top">
 
 **🦴 Hand Bone X-ray Segmentation**
 
@@ -43,7 +44,7 @@ Hand Bone X-ray 이미지 세그멘테이션
 [![Notion](https://img.shields.io/badge/Detail-000000?style=flat-square&logo=notion&logoColor=white)](https://www.notion.so/Hand-Bone-X-ray-Segmentation-2f46d33d0290809d9776c1a38612a682?source=copy_link) [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/boostcampaitech8/pro-cv-semanticsegmentation-cv-02)
 
 </td>
-<td width="50%" valign="top">
+<td width="50%" align="center" valign="top">
 
 **♻️ Recycling Object Detection**
 
@@ -54,3 +55,14 @@ Hand Bone X-ray 이미지 세그멘테이션
 </td>
 </tr>
 </table>
+</div>
+
+---
+
+### BOJ
+
+<div align="center">
+
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=tjftjdqja)](https://solved.ac/tjftjdqja)
+
+</div>
