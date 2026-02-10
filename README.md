@@ -63,9 +63,9 @@ Hand Bone X-ray 이미지 세그멘테이션
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=seolbbb&show_icons=true&hide_border=true&hide_title=true&count_private=true&text_color=333&icon_color=333" height="150" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=seolbbb&show_icons=true&hide_border=true&hide_title=true&count_private=true&text_color=333&icon_color=333" height="150" />
 &nbsp;&nbsp;
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=seolbbb&layout=compact&hide_border=true&hide_title=true&text_color=333" height="150" />
+<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=seolbbb&layout=compact&hide_border=true&hide_title=true&text_color=333" height="150" />
 
 </div>
 
