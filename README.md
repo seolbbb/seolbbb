@@ -4,7 +4,7 @@
 
 AI/ML Engineer
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=notion&logoColor=white)](https://www.notion.so/2f46d33d02908082b792f67990738797?v=2f46d33d0290809bb5d8000caba15f0b) [![Blog](https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=tistory&logoColor=white)](https://woojab.tistory.com/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://seongbeom-seol.vercel.app) [![Blog](https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=tistory&logoColor=white)](https://woojab.tistory.com/)
 
 </div>
 
