@@ -1,80 +1,58 @@
-<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-hero-light.svg">
+  <img alt="Seongbeom Seol — AI/ML engineer building grounded retrieval systems, computer vision products, and developer tools." src="./assets/profile-hero-light.svg" width="100%">
+</picture>
 
-### 설성범 Seongbeom Seol
+<h1 align="center">Seongbeom Seol</h1>
+<p align="center"><strong>AI/ML Engineer</strong></p>
 
-AI/ML Engineer
+<p align="center">
+  <a href="https://seongbeom-seol.vercel.app"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white"></a>
+  <a href="https://woojab.tistory.com/"><img alt="Technical blog" src="https://img.shields.io/badge/Technical_Blog-7C3AED?style=for-the-badge&amp;logo=tistory&amp;logoColor=white"></a>
+</p>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=googlechrome&logoColor=white)](https://seongbeom-seol.vercel.app) [![Blog](https://img.shields.io/badge/Blog-FF5722?style=for-the-badge&logo=tistory&logoColor=white)](https://woojab.tistory.com/)
+I am an AI/ML engineer who builds practical systems across retrieval, computer vision, and AI-assisted developer workflows. I care about source-grounded behavior, measurable evaluation, and software that another person can understand and continue.
 
-</div>
+## Featured work
 
----
+### [Reweave](https://github.com/seolbbb/reweave)
 
-### Projects
+Local-first search and cited answers for exported ChatGPT and Claude conversations. Reweave combines SQLite FTS5 with optional multilingual semantic search, keeps the archive and embeddings on-device, and opens every answer citation at its source message.
 
-<div align="center">
-<table>
-<tr>
-<td width="50%" align="center" valign="top">
+`Python` · `FastAPI` · `SQLite / FTS5` · `React` · `Hybrid retrieval`
 
-**🎓 Re:View**
+The current 32-query Korean and English golden set reports Recall@10 improving from `0.3438` with keyword search to `0.9688` with hybrid search.
 
-STT + 화면 정보를 결합한 강의 영상 요약 서비스
+### [Re:View](https://github.com/seolbbb/Re-View)
 
-[![Notion](https://img.shields.io/badge/Detail-000000?style=flat-square&logo=notion&logoColor=white)](https://www.notion.so/Re-View-STT-2f46d33d029080f5b0c8c2d5401d6a13?source=copy_link) [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/seolbbb/Re-View)
+A lecture-video summarization service that combines speech-to-text with visual screen context instead of relying on the transcript alone.
 
-</td>
-<td width="50%" align="center" valign="top">
+[`Live service`](https://www.smrtreview.com) · `Python` · `Multimodal AI` · `Product engineering`
 
-**🧩 PAZULE**
+### [Pazule](https://github.com/seolbbb/pazule)
 
-VLM 기반 랜드마크 보물찾기 서비스
+A VLM-powered landmark treasure-hunt experience that turns real-world place recognition into an interactive game.
 
-[![Notion](https://img.shields.io/badge/Detail-000000?style=flat-square&logo=notion&logoColor=white)](https://www.notion.so/PAZULE-VLM-2f46d33d029080068f11c1ce64236279?source=copy_link) [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/seolbbb/pazule)
+`Vision-language models` · `Computer vision` · `Applied AI`
 
-</td>
-</tr>
-<tr>
-<td width="50%" align="center" valign="top">
+## Open-source Codex Skills
 
-**🦴 Hand Bone X-ray Segmentation**
+### [manage-project-intent](https://github.com/seolbbb/manage-project-intent)
 
-Hand Bone X-ray 이미지 세그멘테이션
+An intent-preserving project workflow for Codex. It turns product intent, consequential decisions, observed implementation status, and one verified next task into a durable repository record so a new session can continue from evidence rather than chat history.
 
-[![Notion](https://img.shields.io/badge/Detail-000000?style=flat-square&logo=notion&logoColor=white)](https://www.notion.so/Hand-Bone-X-ray-Segmentation-2f46d33d0290809d9776c1a38612a682?source=copy_link) [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/boostcampaitech8/pro-cv-semanticsegmentation-cv-02)
+### [write-korean-cover-letter](https://github.com/seolbbb/write-korean-cover-letter)
 
-</td>
-<td width="50%" align="center" valign="top">
+An evidence-first Korean cover-letter Skill that checks factual conflicts, question fit, role relevance, and repetition before polishing prose. Its public methodology draws on a structural review of 223 published successful applications together with Korean fair-hiring guidance.
 
-**♻️ Recycling Object Detection**
+## Selected computer vision work
 
-재활용 쓰레기 객체 탐지
+- [Hand Bone X-ray Segmentation](https://github.com/boostcampaitech8/pro-cv-semanticsegmentation-cv-02) — semantic segmentation for hand-bone X-ray images.
+- [Recycling Object Detection](https://github.com/boostcampaitech8/pro-cv-objectdetection-cv-02) — object detection for recyclable-waste images.
 
-[![Notion](https://img.shields.io/badge/Detail-000000?style=flat-square&logo=notion&logoColor=white)](https://www.notion.so/Recycling-Object-Detection-2f46d33d0290808481d8fcb7dffbdf78?source=copy_link) [![GitHub](https://img.shields.io/badge/Code-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/boostcampaitech8/pro-cv-objectdetection-cv-02)
+## Working across
 
-</td>
-</tr>
-</table>
-</div>
+`Python` · `PyTorch` · `FastAPI` · `SQLite` · `React` · `TypeScript` · `Computer vision` · `Retrieval and evaluation`
 
----
-
-### GitHub Stats
-
-<div align="center">
-
-<img src="https://github-readme-stats-sigma-five.vercel.app/api?username=seolbbb&show_icons=true&hide_border=true&hide_title=true&count_private=true&text_color=333&icon_color=333" height="150" />
-&nbsp;&nbsp;
-<img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=seolbbb&layout=compact&hide_border=true&hide_title=true&text_color=333" height="150" />
-
-</div>
-
----
-
-### Algorithm
-
-<div align="center">
-
-[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=tjftjdqja)](https://solved.ac/tjftjdqja)
-
-</div>
+For more context, visit my [portfolio](https://seongbeom-seol.vercel.app), read my [technical notes](https://woojab.tistory.com/), or see my [algorithm practice](https://solved.ac/profile/tjftjdqja).

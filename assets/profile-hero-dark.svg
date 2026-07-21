@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
+  <title id="title">Seongbeom Seol, AI/ML Engineer</title>
+  <desc id="description">Building grounded retrieval systems, computer vision products, and developer tools.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1E1B4B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#C4B5FD"/>
+      <stop offset="1" stop-color="#818CF8"/>
+    </linearGradient>
+    <filter id="soft-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#000000" flood-opacity="0.36"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#background)"/>
+  <path d="M777 0h423v360H676c95-74 129-162 101-360Z" fill="#312E81" fill-opacity="0.30"/>
+  <path d="M914 52c72 9 132 51 170 113s51 139 25 195H758c17-74 56-147 156-308Z" fill="#4C1D95" fill-opacity="0.46"/>
+
+  <g transform="translate(835 66)" filter="url(#soft-shadow)">
+    <rect width="246" height="228" rx="28" fill="#111827" stroke="#6D28D9" stroke-width="2"/>
+    <circle cx="66" cy="65" r="23" fill="#A78BFA"/>
+    <circle cx="180" cy="65" r="23" fill="#818CF8"/>
+    <circle cx="123" cy="163" r="23" fill="#F472B6"/>
+    <path d="M86 65h74M77 85l34 58M169 85l-34 58" fill="none" stroke="#8B5CF6" stroke-width="8" stroke-linecap="round"/>
+    <circle cx="66" cy="65" r="8" fill="#111827"/>
+    <circle cx="180" cy="65" r="8" fill="#111827"/>
+    <circle cx="123" cy="163" r="8" fill="#111827"/>
+  </g>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="76" y="98" fill="#C4B5FD" font-size="20" font-weight="700" letter-spacing="4">AI / ML ENGINEERING</text>
+    <text x="76" y="174" fill="#F8FAFC" font-size="58" font-weight="700">Grounded AI systems</text>
+    <rect x="76" y="204" width="96" height="6" rx="3" fill="url(#accent)"/>
+    <text x="76" y="259" fill="#E2E8F0" font-size="25" font-weight="500">Retrieval systems · Computer vision · Developer tools</text>
+    <text x="76" y="305" fill="#CBD5E1" font-size="19">Grounded in sources. Measured with evidence. Built to be continued.</text>
+  </g>
+</svg>
