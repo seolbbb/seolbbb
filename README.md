@@ -8,8 +8,6 @@
 
 RAG, 컴퓨터 비전, AI 에이전트 워크플로를 실제로 사용할 수 있는 제품으로 구현하는데 관심이 있습니다.
 
-**알고리즘 문제 해결:** [백준 플래티넘 V](https://solved.ac/profile/tjftjdqja)
-
 ## 주요 프로젝트
 
 ### [Reweave](https://github.com/seolbbb/reweave)
