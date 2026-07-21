@@ -6,52 +6,65 @@
   <a href="https://woojab.tistory.com/"><img alt="Blog" src="https://img.shields.io/badge/Blog-7C3AED?style=for-the-badge&amp;logo=tistory&amp;logoColor=white"></a>
 </p>
 
-I build practical products across retrieval, computer vision, and AI-assisted developer workflows. I value source-grounded behavior, measurable evaluation, and systems that another person can understand and continue.
-
-**Algorithm problem solving:** [Baekjoon Platinum V](https://solved.ac/profile/tjftjdqja)
+I am interested in turning RAG, computer vision, and AI-agent workflows into products people can actually use.
 
 ## Featured projects
 
 ### [Reweave](https://github.com/seolbbb/reweave)
 
-A local-first archive search tool for exported ChatGPT and Claude conversations, with answers linked back to their source messages. It combines SQLite FTS5 with optional multilingual semantic search while keeping conversations and embeddings on-device.
+Decisions, lessons, and unresolved questions accumulate in AI conversations, but they are difficult to reuse after a chat ends, forcing users to explain the same context again. Reweave turns user-selected ChatGPT and Claude conversations into source-linked Conversation Briefs and Context Items within one local Context Library. When requested, it inserts relevant context into the current web chat. Conversations stay local, and Reweave reads the browser chat only after the user chooses Save or Use.
 
-`Python` · `FastAPI` · `SQLite / FTS5` · `React` · `Hybrid retrieval`
-
-On the current 32-query Korean and English golden set, Recall@10 improves from `0.3438` with keyword search to `0.9688` with hybrid search.
+`Python` · `FastAPI` · `SQLite / FTS5` · `FastEmbed` · `BM25 / RRF` · `React` · `TypeScript` · `Chrome/Edge Extension (Manifest V3)` · `Native Messaging` · `pywebview`
 
 ### [Re:View](https://github.com/seolbbb/Re-View)
 
-A lecture-video summarization service developed as the final project of Naver Connect Foundation Boostcamp AI Tech, 8th cohort. It combines speech-to-text with visual screen context instead of relying on the transcript alone.
+- Final project for Naver Connect Foundation Boostcamp AI Tech, 8th cohort.
 
-[`Live service`](https://www.smrtreview.com) · `Python` · `Multimodal AI` · `Product engineering`
+Audio transcripts alone miss the context carried by slides and board work. Re:View synchronizes Clova Speech and Whisper STT results with VLM screen analysis to produce lecture summaries. Its LangGraph-based RAG chatbot retrieves summaries and source evidence for follow-up questions, while separate prompts for summarization, judging, and question suggestions support repeatable experiments.
+
+[`Live service`](https://www.smrtreview.com)
+
+`Python` · `FastAPI` · `React` · `LangGraph` · `RAG` · `Supabase (PostgreSQL / pgvector)` · `Clova Speech / Whisper` · `OpenCV` · `Gemini / Qwen VLM` · `Prompt Engineering`
 
 ### [Pazule](https://github.com/seolbbb/pazule)
 
-A VLM-powered landmark treasure-hunt experience that turns real-world place recognition into an interactive game.
+Pazule turns real-world place exploration into AI missions instead of stopping at a correct-or-incorrect image judgment. BLIP-VQA verifies landmarks, CLIP classifies the mood of a photo, and GPT-4o-mini turns model failures into hints without revealing the answer directly.
 
-`Vision-language models` · `Computer vision` · `Applied AI`
+`Python` · `PyTorch` · `Hugging Face Transformers` · `BLIP-VQA` · `CLIP` · `OpenAI API (GPT-4o-mini)` · `Pillow`
 
-## Open-source Codex Skills
+## Open-source Skills
 
 ### [manage-project-intent](https://github.com/seolbbb/manage-project-intent)
 
-An intent-preserving workflow that records product intent, consequential decisions, observed implementation status, and one verified next task so a new Codex session can continue from repository evidence.
+AI accelerates implementation, but technical debt and rework grow when the reasons behind product choices remain trapped in chat history. manage-project-intent keeps interviewing until consequential decisions are settled, then records the product specification, roadmap, observed status, and decision history in the repository. Multiple sessions can continue from one documented Next task, while a Goldfish check tests whether a fresh session can reconstruct the user's intent from the documents alone.
+
+`Python` · `Markdown` · `YAML` · `pytest`
 
 ### [write-korean-cover-letter](https://github.com/seolbbb/write-korean-cover-letter)
 
-An evidence-first Korean cover-letter Skill that checks factual conflicts, question fit, role relevance, and repetition before polishing prose. Its public methodology draws on a structural review of 223 published successful applications and Korean fair-hiring guidance.
+Repeated edits do not automatically fix mismatched experiences, inflated roles, or conflicting numbers in a cover letter. This workflow compares the job posting with the user's source materials, selects evidence for each question, and checks factual scope and repetition before polishing the prose. Its methodology draws on a structural analysis of 223 publicly available successful Korean cover letters together with Work24 and NCS fair-hiring guidance.
 
-## Naver Connect Foundation Boostcamp AI Tech, 8th cohort — computer vision projects
+`Markdown` · `Python` · `YAML` · `Shell`
 
-- [Hand Bone X-ray Segmentation](https://github.com/boostcampaitech8/pro-cv-semanticsegmentation-cv-02) — semantic segmentation for hand-bone X-ray images.
-- [Recycling Object Detection](https://github.com/boostcampaitech8/pro-cv-objectdetection-cv-02) — object detection for recyclable-waste images.
+## Computer vision projects
+
+- Completed during Naver Connect Foundation Boostcamp AI Tech, 8th cohort.
+
+### [Hand Bone X-ray Segmentation](https://github.com/boostcampaitech8/pro-cv-semanticsegmentation-cv-02)
+
+`Python` · `PyTorch` · `Segmentation Models PyTorch (SMP)` · `MMSegmentation` · `Albumentations` · `W&B`
+
+### [Recycling Object Detection](https://github.com/boostcampaitech8/pro-cv-objectdetection-cv-02)
+
+`Python` · `PyTorch` · `MMDetection` · `Ultralytics YOLO` · `COCO` · `W&B`
 
 ## Skills
 
 `Python` · `PyTorch` · `FastAPI` · `SQLite` · `React` · `TypeScript` · `Computer vision` · `Retrieval and evaluation`
 
-For more context, visit my [portfolio](https://seongbeom-seol.vercel.app), [blog](https://woojab.tistory.com/), or [Baekjoon profile](https://solved.ac/profile/tjftjdqja).
+## Links
+
+[Portfolio](https://seongbeom-seol.vercel.app/) · [Blog](https://woojab.tistory.com/) · [solved.ac](https://solved.ac/profile/tjftjdqja)
 
 ---
 
