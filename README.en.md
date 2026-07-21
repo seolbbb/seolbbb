@@ -6,9 +6,7 @@
   <a href="https://woojab.tistory.com/"><img alt="Blog" src="https://img.shields.io/badge/Blog-7C3AED?style=for-the-badge&amp;logo=tistory&amp;logoColor=white"></a>
 </p>
 
-I work across retrieval, computer vision, and AI-agent workflows. I build software whose evidence can be inspected, whose results can be measured, and whose development can be continued by others.
-
-**Algorithm problem solving:** [Baekjoon Platinum V](https://solved.ac/profile/tjftjdqja)
+I am interested in turning RAG, computer vision, and AI-agent workflows into products people can actually use.
 
 ## Featured projects
 
@@ -17,8 +15,6 @@ I work across retrieval, computer vision, and AI-agent workflows. I build softwa
 Decisions, lessons, and unresolved questions accumulate in AI conversations, but they are difficult to reuse after a chat ends, forcing users to explain the same context again. Reweave turns user-selected ChatGPT and Claude conversations into source-linked Conversation Briefs and Context Items within one local Context Library. When requested, it inserts relevant context into the current web chat. Conversations stay local, and Reweave reads the browser chat only after the user chooses Save or Use.
 
 `Python` · `FastAPI` · `SQLite / FTS5` · `FastEmbed` · `BM25 / RRF` · `React` · `TypeScript` · `Chrome/Edge Extension (Manifest V3)` · `Native Messaging` · `pywebview`
-
-Search combines FTS5/BM25 with local multilingual embeddings through RRF. On a 32-query Korean and English golden set, Recall@10 improved from `0.3438` with keyword search to `0.9688` with hybrid search.
 
 ### [Re:View](https://github.com/seolbbb/Re-View)
 

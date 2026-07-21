@@ -6,9 +6,7 @@
   <a href="https://woojab.tistory.com/"><img alt="블로그" src="https://img.shields.io/badge/Blog-7C3AED?style=for-the-badge&amp;logo=tistory&amp;logoColor=white"></a>
 </p>
 
-검색, 컴퓨터 비전, AI 에이전트 워크플로를 다룹니다. 근거를 확인할 수 있고, 결과를 측정할 수 있으며, 다른 사람이 이어서 개발할 수 있는 소프트웨어를 만들고 있습니다.
-
-**알고리즘 문제 해결:** [백준 플래티넘 V](https://solved.ac/profile/tjftjdqja)
+RAG, 컴퓨터 비전, AI 에이전트 워크플로를 실제로 쓸 수 있는 제품으로 구현하는 데 관심이 있습니다.
 
 ## 주요 프로젝트
 
@@ -17,8 +15,6 @@
 AI와 나눈 대화에는 결정과 배운 점, 아직 풀지 못한 질문이 쌓입니다. 하지만 대화가 끝나면 다시 꺼내 쓰기 어렵고, 새 채팅을 열 때마다 맥락을 처음부터 설명하게 됩니다. Reweave는 사용자가 저장한 ChatGPT·Claude 대화를 출처가 연결된 Conversation Brief와 Context Item으로 정리해 하나의 Context Library로 만듭니다. 필요할 때 관련 맥락을 지금 쓰는 웹 채팅에 넣습니다. 기록은 로컬에 남기고, 사용자가 Save나 Use를 눌렀을 때만 브라우저 대화를 읽습니다.
 
 `Python` · `FastAPI` · `SQLite / FTS5` · `FastEmbed` · `BM25 / RRF` · `React` · `TypeScript` · `Chrome/Edge Extension (Manifest V3)` · `Native Messaging` · `pywebview`
-
-검색은 FTS5/BM25와 로컬 다국어 임베딩을 RRF로 결합했습니다. 한국어·영어 32개 질의 골든셋에서 Recall@10은 키워드 검색 `0.3438`에서 하이브리드 검색 `0.9688`로 향상되었습니다.
 
 ### [Re:View](https://github.com/seolbbb/Re-View)
 
@@ -36,7 +32,7 @@ AI와 나눈 대화에는 결정과 배운 점, 아직 풀지 못한 질문이 �
 
 `Python` · `PyTorch` · `Hugging Face Transformers` · `BLIP-VQA` · `CLIP` · `OpenAI API (GPT-4o-mini)` · `Pillow`
 
-## 공개한 Skills
+## Skills
 
 ### [manage-project-intent](https://github.com/seolbbb/manage-project-intent)
 
