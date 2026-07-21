@@ -1,58 +1,58 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-hero-light.svg">
-  <img alt="Seongbeom Seol — AI/ML engineer building grounded retrieval systems, computer vision products, and developer tools." src="./assets/profile-hero-light.svg" width="100%">
-</picture>
-
-<h1 align="center">Seongbeom Seol</h1>
+<h1 align="center">설성범</h1>
 <p align="center"><strong>AI/ML Engineer</strong></p>
 
 <p align="center">
-  <a href="https://seongbeom-seol.vercel.app"><img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white"></a>
-  <a href="https://woojab.tistory.com/"><img alt="Technical blog" src="https://img.shields.io/badge/Technical_Blog-7C3AED?style=for-the-badge&amp;logo=tistory&amp;logoColor=white"></a>
+  <a href="https://seongbeom-seol.vercel.app"><img alt="포트폴리오" src="https://img.shields.io/badge/Portfolio-0F172A?style=for-the-badge&amp;logo=googlechrome&amp;logoColor=white"></a>
+  <a href="https://woojab.tistory.com/"><img alt="블로그" src="https://img.shields.io/badge/Blog-7C3AED?style=for-the-badge&amp;logo=tistory&amp;logoColor=white"></a>
 </p>
 
-I am an AI/ML engineer who builds practical systems across retrieval, computer vision, and AI-assisted developer workflows. I care about source-grounded behavior, measurable evaluation, and software that another person can understand and continue.
+검색, 컴퓨터 비전, AI 에이전트 워크플로를 실제로 사용할 수 있는 제품으로 구현합니다. 출처가 분명한 동작, 측정 가능한 평가, 다른 사람이 이어서 개발할 수 있는 구조를 중요하게 생각합니다.
 
-## Featured work
+**알고리즘 문제 해결:** [백준 플래티넘 V](https://solved.ac/profile/tjftjdqja)
+
+## 주요 프로젝트
 
 ### [Reweave](https://github.com/seolbbb/reweave)
 
-Local-first search and cited answers for exported ChatGPT and Claude conversations. Reweave combines SQLite FTS5 with optional multilingual semantic search, keeps the archive and embeddings on-device, and opens every answer citation at its source message.
+내보낸 ChatGPT·Claude 대화를 로컬에서 검색하고, 원문 인용과 함께 답을 찾는 아카이브 검색 도구입니다. SQLite FTS5와 선택형 다국어 의미 검색을 결합하며, 대화와 임베딩을 모두 기기에 보관합니다.
 
-`Python` · `FastAPI` · `SQLite / FTS5` · `React` · `Hybrid retrieval`
+`Python` · `FastAPI` · `SQLite / FTS5` · `React` · `하이브리드 검색`
 
-The current 32-query Korean and English golden set reports Recall@10 improving from `0.3438` with keyword search to `0.9688` with hybrid search.
+현재 한국어·영어 32개 질의 골든셋에서 Recall@10이 키워드 검색 `0.3438`에서 하이브리드 검색 `0.9688`로 향상되었습니다.
 
 ### [Re:View](https://github.com/seolbbb/Re-View)
 
-A lecture-video summarization service that combines speech-to-text with visual screen context instead of relying on the transcript alone.
+네이버 커넥트재단 부스트캠프 AI Tech 8기 최종 프로젝트로 진행한 강의 영상 요약 서비스입니다. 음성 인식 결과와 화면의 시각 정보를 함께 활용해 강의 내용을 요약합니다.
 
-[`Live service`](https://www.smrtreview.com) · `Python` · `Multimodal AI` · `Product engineering`
+[`서비스 바로가기`](https://www.smrtreview.com) · `Python` · `멀티모달 AI` · `제품 개발`
 
 ### [Pazule](https://github.com/seolbbb/pazule)
 
-A VLM-powered landmark treasure-hunt experience that turns real-world place recognition into an interactive game.
+VLM 기반 장소 인식 기술을 활용해 실제 공간 탐색을 보물찾기 경험으로 만든 프로젝트입니다.
 
-`Vision-language models` · `Computer vision` · `Applied AI`
+`비전-언어 모델` · `컴퓨터 비전` · `응용 AI`
 
-## Open-source Codex Skills
+## 공개한 Codex Skills
 
 ### [manage-project-intent](https://github.com/seolbbb/manage-project-intent)
 
-An intent-preserving project workflow for Codex. It turns product intent, consequential decisions, observed implementation status, and one verified next task into a durable repository record so a new session can continue from evidence rather than chat history.
+제품 의도, 주요 결정, 구현 상태, 다음 작업을 저장소 문서로 남겨 새로운 세션에서도 근거를 바탕으로 프로젝트를 이어갈 수 있게 하는 Codex Skill입니다.
 
 ### [write-korean-cover-letter](https://github.com/seolbbb/write-korean-cover-letter)
 
-An evidence-first Korean cover-letter Skill that checks factual conflicts, question fit, role relevance, and repetition before polishing prose. Its public methodology draws on a structural review of 223 published successful applications together with Korean fair-hiring guidance.
+사실 충돌, 문항 적합성, 직무 연관성, 문항 간 중복을 먼저 점검한 뒤 한국어 자기소개서를 다듬는 Codex Skill입니다. 공개 합격 자기소개서 223건의 구조 분석과 공정채용 지침을 방법론에 반영했습니다.
 
-## Selected computer vision work
+## 네이버 커넥트재단 부스트캠프 AI Tech 8기 컴퓨터 비전 프로젝트
 
-- [Hand Bone X-ray Segmentation](https://github.com/boostcampaitech8/pro-cv-semanticsegmentation-cv-02) — semantic segmentation for hand-bone X-ray images.
-- [Recycling Object Detection](https://github.com/boostcampaitech8/pro-cv-objectdetection-cv-02) — object detection for recyclable-waste images.
+- [손 뼈 X-ray 이미지 분할](https://github.com/boostcampaitech8/pro-cv-semanticsegmentation-cv-02) — 손 뼈 X-ray 이미지의 뼈 영역을 분할하는 프로젝트입니다.
+- [재활용 쓰레기 객체 탐지](https://github.com/boostcampaitech8/pro-cv-objectdetection-cv-02) — 재활용 쓰레기 이미지에서 객체를 탐지하는 프로젝트입니다.
 
-## Working across
+## 기술
 
-`Python` · `PyTorch` · `FastAPI` · `SQLite` · `React` · `TypeScript` · `Computer vision` · `Retrieval and evaluation`
+`Python` · `PyTorch` · `FastAPI` · `SQLite` · `React` · `TypeScript` · `컴퓨터 비전` · `검색 및 평가`
 
-For more context, visit my [portfolio](https://seongbeom-seol.vercel.app), read my [technical notes](https://woojab.tistory.com/), or see my [algorithm practice](https://solved.ac/profile/tjftjdqja).
+더 자세한 내용은 [포트폴리오](https://seongbeom-seol.vercel.app), [블로그](https://woojab.tistory.com/), [백준](https://solved.ac/profile/tjftjdqja)에서 확인할 수 있습니다.
+
+---
+
+<p align="right"><a href="./README.en.md">English</a></p>
