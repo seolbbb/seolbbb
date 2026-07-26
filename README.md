@@ -53,7 +53,7 @@ AI 덕분에 구현 속도는 빨라졌지만, 사용자의 의도와 선택의 
 
 ## 기술
 
-`Python` · `PyTorch` · `FastAPI` · `SQLite` · `React` · `TypeScript` · `Computer Vision` · `RAG`
+`Python` · `PyTorch` · `FastAPI` · `Computer Vision` · `RAG`
 
 ## Links
 
