@@ -47,7 +47,7 @@ AI 덕분에 구현 속도는 빨라졌지만, 사용자의 의도와 선택의 
 
 `Python` · `PyTorch` · `Segmentation Models PyTorch (SMP)` · `MMSegmentation` · `W&B`
 
-### [재활용 쓰레기 객체 탐지](https://github.com/boostcampaitech8/pro-cv-objectdetection-cv-02) - 네이버 커넥트재단 부스트캠프 AI Tech 8기
+### [재활용 쓰레기 객체 탐지](https://github.com/boostcampaitech8/pro-cv-objectdetection-cv-02)
 
 `Python` · `PyTorch` · `MMDetection` · `Ultralytics YOLO` · `W&B`
 
