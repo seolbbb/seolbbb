@@ -8,6 +8,8 @@
 
 RAG, 컴퓨터 비전, AI 에이전트 워크플로를 실제로 쓸 수 있는 제품으로 구현하는 데 관심이 있습니다.
 
+[![Solved.ac
+프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj={tjftjdqja})](https://solved.ac/{tjftjdqja})
 ## 주요 프로젝트
 
 ### [Reweave](https://github.com/seolbbb/reweave)
