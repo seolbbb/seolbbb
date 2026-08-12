@@ -8,8 +8,6 @@
 
 RAG, 컴퓨터 비전, AI 에이전트 워크플로를 실제로 쓸 수 있는 제품으로 구현하는 데 관심이 있습니다.
 
-[![Solved.ac
-프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj={tjftjdqja})](https://solved.ac/{tjftjdqja})
 ## 주요 프로젝트
 
 ### [Reweave](https://github.com/seolbbb/reweave)
@@ -57,9 +55,11 @@ AI 덕분에 구현 속도는 빨라졌지만, 사용자의 의도와 선택의 
 
 `Python` · `PyTorch` · `FastAPI` · `Computer Vision` · `RAG`
 
-## Links
-
-[포트폴리오](https://seongbeom-seol.vercel.app/) · [블로그](https://woojab.tistory.com/) · [solved.ac](https://solved.ac/profile/tjftjdqja)
+<p align="center">
+  <a href="https://solved.ac/tjftjdqja">
+    <img src="http://mazassumnida.wtf/api/v2/generate_badge?boj=tjftjdqja" alt="Solved.ac 프로필">
+  </a>
+</p>
 
 ---
 
